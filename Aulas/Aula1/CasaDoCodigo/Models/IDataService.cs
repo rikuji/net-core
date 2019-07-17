@@ -1,4 +1,4 @@
-﻿namespace CasaDoCodigo.Models.Services
+﻿namespace CasaDoCodigo.Models
 {
     public interface IDataService
     {

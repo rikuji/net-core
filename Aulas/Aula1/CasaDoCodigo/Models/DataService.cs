@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CasaDoCodigo.Models.Services
+namespace CasaDoCodigo.Models
 {
     public class DataService : IDataService
     {
