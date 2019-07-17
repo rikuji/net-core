@@ -62,16 +62,20 @@ namespace CasaDoCodigo.Models
         [Required]
         public string CEP { get; set; } = "";
     }
-
+    [DataContract]
     public class ItemPedido : BaseModel
     {   
         [Required]
+        [DataMember]
         public Pedido Pedido { get; private set; }
+        [DataMember]
         [Required]
         public Produto Produto { get; private set; }
         [Required]
+        [DataMember]
         public int Quantidade { get; private set; }
         [Required]
+        [DataMember]
         public decimal PrecoUnitario { get; private set; }
 
         public ItemPedido()
